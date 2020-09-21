@@ -1,0 +1,14 @@
+! ---------
+! model variables
+! ---------
+pptrate                   | 1
+scalarSWE                 | 1
+scalarTotalRunoff         | 1
+basin__SurfaceRunoff      | 1
+basin__ColumnOutflow      | 1
+basin__AquiferStorage     | 1
+basin__AquiferRecharge    | 1
+basin__AquiferBaseflow    | 1
+basin__AquiferTranspire   | 1
+averageInstantRunoff      | 1
+averageRoutedRunoff       | 1
