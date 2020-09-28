@@ -1,28 +1,13 @@
-nSnow                                | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-nSoil                                | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-pptrate                              | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-airtemp                              | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-scalarRainPlusMelt                   | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-scalarSWE                            | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-scalarSnowDepth                      | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-scalarSurfaceRunoff                  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-scalarSurfaceTemp                    | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-scalarTotalRunoff                    | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-iLayerHeight                         | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-iLayerLiqFluxSoil                    | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerTemp                           | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerDepth                          | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerHeight                         | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerLiqFluxSoil                    | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerVolFracIce                     | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerVolFracLiq                     | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerVolFracWat                     | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-mLayerMatricHead                     | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-basin__SurfaceRunoff                 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-basin__ColumnOutflow                 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-basin__AquiferStorage                | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-basin__AquiferRecharge               | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-basin__AquiferBaseflow               | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-basin__AquiferTranspire              | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-averageInstantRunoff                 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-averageRoutedRunoff                  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
+! ------
+! output precision
+! ------
+outputPrecision           | float
+
+! ---------
+! model variables
+! ---------
+pptrate                   | 1
+scalarSWE                 | 1
+scalarTotalRunoff         | 1
+averageInstantRunoff      | 1
+averageRoutedRunoff       | 1
