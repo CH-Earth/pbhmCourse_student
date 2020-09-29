@@ -1,0 +1,15 @@
+! ------
+! output precision
+! ------
+outputPrecision           | float
+
+! ---------
+! model variables
+! ---------
+nSnow                     | 1
+nSoil                     | 1
+pptrate                   | 24
+scalarSWE                 | 1
+scalarTotalRunoff         | 24
+averageInstantRunoff      | 24
+averageRoutedRunoff       | 1
