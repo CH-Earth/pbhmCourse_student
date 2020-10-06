@@ -1,0 +1,20 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
+simStartTime         '2005-07-01 00:00' !
+simEndTime           '2006-09-30 00:00' !
+tmZoneInfo           'localTime' !
+settingsPath         '/home/jovyan/data/pbhmCourseWip/4_meteorological_forcing_data/settings/reynolds/' !  setting_path
+forcingPath          '/home/jovyan/data/pbhmCourseWip/4_meteorological_forcing_data/data/reynolds/' !  input_path
+outputPath           '/home/jovyan/data/pbhmCourseWip/4_meteorological_forcing_data/output/reynolds/' !  output_path
+decisionsFile        'summa_zDecisions.txt' !  decision
+outputControlFile    'Model_Output.txt' !  OUTPUT_CONTROL
+globalHruParamFile   'summa_zLocalParamInfo.txt' !  local_par
+globalGruParamFile   'summa_zBasinParamInfo.txt' !  basin_par
+attributeFile        'summa_zLocalAttributes.nc' !  local_attr
+trialParamFile       'summa_zParamTrial.nc' !  para_trial
+forcingListFile      'summa_zForcingFileList.txt' !  forcing_list
+initConditionFile    'summa_zInitialCond.nc' !  initial_cond
+outFilePrefix        'reynolds' !  output_prefix
+vegTableFile         'VEGPARM.TBL' !
+soilTableFile        'SOILPARM.TBL' !
+generalTableFile     'GENPARM.TBL' !
+noahmpTableFile      'MPTABLE.TBL' !
