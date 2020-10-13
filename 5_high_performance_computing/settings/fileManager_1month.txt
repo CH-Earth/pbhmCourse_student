@@ -8,7 +8,7 @@ settingsPath         '/home/mac414/pbhmCourse_student/5_high_performance_computi
 outputPath           '/home/mac414/pbhmCourse_student/5_high_performance_computing/output/'    !  output path
 
 ! This may need to be updated
-forcingPath          '/home/mac414/camels/nldas_forcing/' !  forcing path
+forcingPath          '/cm/share/training/geog825/' !  forcing path
 
 ! This can remain unchanged
 decisionsFile        'modelDecisions.txt'                                  !  model decision file
