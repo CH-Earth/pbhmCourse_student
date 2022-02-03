@@ -1,0 +1,7 @@
+! ****************************************************************************************************
+! List of forcing data files used in each HRU
+!
+! This file includes one field per line:
+!   The name of the forcing file in single quotes
+! ****************************************************************************************************
+'inputData_Bugac.nc'
