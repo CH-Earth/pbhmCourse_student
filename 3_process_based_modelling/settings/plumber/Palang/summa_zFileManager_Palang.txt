@@ -2,9 +2,9 @@ controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !
 simStartTime         '2002-01-01 00:30' ! 
 simEndTime           '2004-01-01 00:00' ! 
 tmZoneInfo           'localTime' ! 
-settingsPath         '/home/jovyan/data/pbhmCourse_student/2_process_based_modelling/settings/plumber/Palang/' !  SETNGS_PATH
-forcingPath          '/home/jovyan/data/pbhmCourse_student/2_process_based_modelling/data/plumber/' !  INPUT_PATH
-outputPath           '/home/jovyan/data/pbhmCourse_student/2_process_based_modelling/output/plumber/Palang/' !  OUTPUT_PATH
+settingsPath         './settings/plumber/Palang/' !  SETNGS_PATH
+forcingPath          './data/plumber/' !  INPUT_PATH
+outputPath           './output/plumber/Palang/' !  OUTPUT_PATH
 decisionsFile        'summa_zDecisions_Palang.txt' !  M_DECISIONS = definition of model decisions
 outputControlFile    'summa_zModelOutput.txt' !  OUTPUT_CONTROL = model output variables
 globalHruParamFile   'summa_zLocalParamInfo.txt' !  LOCALPARAM_INFO = default values and constraints for local model parameters
