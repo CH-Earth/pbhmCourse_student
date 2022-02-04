@@ -8,9 +8,9 @@
 ! *************************************************************************************************************************
 ! DEFINE DIRECTORIES
 ! --------------------------
-<ancil_dir>         /home/jovyan/data/pbhmCourse_student/2_process_based_modelling/mizuRoute/ancillary_data/ ! directory containing ancillary data (river network, remapping netCDF)
-<input_dir>         /home/jovyan/data/pbhmCourse_student/2_process_based_modelling/output/bow/distributed/   ! directory containing input data (runoff netCDF)
-<output_dir>        /home/jovyan/data/pbhmCourse_student/2_process_based_modelling/output/bow/distributed/   ! directory containing output data
+<ancil_dir>         ./mizuRoute/ancillary_data/ ! directory containing ancillary data (river network, remapping netCDF)
+<input_dir>         ./output/bow/distributed/   ! directory containing input data (runoff netCDF)
+<output_dir>        ./output/bow/distributed/   ! directory containing output data
 ! *************************************************************************************************************************
 ! DEFINE TIME PERIOD OF THE SIMULATION
 ! --------------------------------------------
