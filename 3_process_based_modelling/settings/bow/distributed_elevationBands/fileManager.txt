@@ -2,9 +2,9 @@ controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
 simStartTime         '2000-10-01 00:00' ! 
 simEndTime           '2013-09-30 00:00' ! 
 tmZoneInfo           'localTime' ! 
-settingsPath         '/home/jovyan/data/pbhmCourse_student/2_process_based_modelling/settings/bow/distributed_elevationBands/' !  setting_path
-forcingPath          '/home/jovyan/data/pbhmCourse_student/2_process_based_modelling/data/bow/forcing/distributed_elevationBands/' !  input_path
-outputPath           '/home/jovyan/data/pbhmCourse_student/2_process_based_modelling/output/bow/distributed_elevationBands/' !  output_path
+settingsPath         './settings/bow/distributed_elevationBands/' !  setting_path
+forcingPath          './data/bow/forcing/distributed_elevationBands/' !  input_path
+outputPath           './output/bow/distributed_elevationBands/' !  output_path
 decisionsFile        'modelDecisions.txt' !  decision
 outputControlFile    'Model_Output.txt' !  OUTPUT_CONTROL
 globalHruParamFile   'localParamInfo.txt' !  local_par
