@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' ! 
+simStartTime         '2001-01-01 00:30' ! 
+simEndTime           '2005-01-01 00:00' ! 
+tmZoneInfo           'localTime' ! 
+settingsPath         './settings/plumber/Hyytiala/' !  SETNGS_PATH
+forcingPath          './data/plumber/' !  INPUT_PATH
+outputPath           './output/plumber/Hyytiala/' !  OUTPUT_PATH
+decisionsFile        'summa_zDecisions_Hyytiala.txt' !  M_DECISIONS = definition of model decisions
+outputControlFile    'summa_zModelOutput.txt' !  OUTPUT_CONTROL = model output variables
+globalHruParamFile   'summa_zLocalParamInfo.txt' !  LOCALPARAM_INFO = default values and constraints for local model parameters
+globalGruParamFile   'summa_zBasinParamInfo.txt' !  BASINPARAM_INFO = default values and constraints for basin-average model parameters
+attributeFile        'summa_zLocalAttributes_Hyytiala.nc' !  LOCAL_ATTRIBUTES = local attributes
+trialParamFile       'summa_zLocalParamTrial_Hyytiala.nc' !  PARAMETER_TRIAL = trial values for model parameters
+forcingListFile      'summa_zForcingFileList_Hyytiala.txt' !  FORCING_FILELIST = list of forcing files
+initConditionFile    'summa_zInitialCond_Hyytiala.nc' !  MODEL_INITCOND = model initial conditions
+outFilePrefix        'Hyytiala_' !  OUTPUT_PREFIX = prefix for the output file
+vegTableFile         'VEGPARM.TBL' ! 
+soilTableFile        'SOILPARM.TBL' ! 
+generalTableFile     'GENPARM.TBL' ! 
+noahmpTableFile      'MPTABLE.TBL' ! 
+! history Wed Aug 26 14:56:19 2020: /Users/nijssen/Dropbox/code/summa/utils/convert_summa_config_v2_v3.py PLUMBER_data/sites/Hyytiala/settings/summa_zFileManager_Hyytiala.txt

@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' ! 
+simStartTime         '2002-01-01 00:30' ! 
+simEndTime           '2006-01-01 00:00' ! 
+tmZoneInfo           'localTime' ! 
+settingsPath         './settings/plumber/Espirra/' !  SETNGS_PATH
+forcingPath          './data/plumber/' !  INPUT_PATH
+outputPath           './output/plumber/Espirra/' !  OUTPUT_PATH
+decisionsFile        'summa_zDecisions_Espirra.txt' !  M_DECISIONS = definition of model decisions
+outputControlFile    'summa_zModelOutput.txt' !  OUTPUT_CONTROL = model output variables
+globalHruParamFile   'summa_zLocalParamInfo.txt' !  LOCALPARAM_INFO = default values and constraints for local model parameters
+globalGruParamFile   'summa_zBasinParamInfo.txt' !  BASINPARAM_INFO = default values and constraints for basin-average model parameters
+attributeFile        'summa_zLocalAttributes_Espirra.nc' !  LOCAL_ATTRIBUTES = local attributes
+trialParamFile       'summa_zLocalParamTrial_Espirra.nc' !  PARAMETER_TRIAL = trial values for model parameters
+forcingListFile      'summa_zForcingFileList_Espirra.txt' !  FORCING_FILELIST = list of forcing files
+initConditionFile    'summa_zInitialCond_Espirra.nc' !  MODEL_INITCOND = model initial conditions
+outFilePrefix        'Espirra_' !  OUTPUT_PREFIX = prefix for the output file
+vegTableFile         'VEGPARM.TBL' ! 
+soilTableFile        'SOILPARM.TBL' ! 
+generalTableFile     'GENPARM.TBL' ! 
+noahmpTableFile      'MPTABLE.TBL' !  
+! history Wed Aug 26 14:55:05 2020: /Users/nijssen/Dropbox/code/summa/utils/convert_summa_config_v2_v3.py PLUMBER_data/sites/Espirra/settings/summa_zFileManager_Espirra.txt

@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' ! 
+simStartTime         '2000-01-01 00:30' ! 
+simEndTime           '2007-01-01 00:00' ! 
+tmZoneInfo           'localTime' ! 
+settingsPath         './settings/plumber/Blodgett/' !  SETNGS_PATH
+forcingPath          './data/plumber//' !  INPUT_PATH
+outputPath           './output/plumber/Blodgett/' !  OUTPUT_PATH
+decisionsFile        'summa_zDecisions_Blodgett.txt' !  M_DECISIONS = definition of model decisions
+outputControlFile    'summa_zModelOutput.txt' !  OUTPUT_CONTROL = model output variables
+globalHruParamFile   'summa_zLocalParamInfo.txt' !  LOCALPARAM_INFO = default values and constraints for local model parameters
+globalGruParamFile   'summa_zBasinParamInfo.txt' !  BASINPARAM_INFO = default values and constraints for basin-average model parameters
+attributeFile        'summa_zLocalAttributes_Blodgett.nc' !  LOCAL_ATTRIBUTES = local attributes
+trialParamFile       'summa_zLocalParamTrial_Blodgett.nc' !  PARAMETER_TRIAL = trial values for model parameters
+forcingListFile      'summa_zForcingFileList_Blodgett.txt' !  FORCING_FILELIST = list of forcing files
+initConditionFile    'summa_zInitialCond_Blodgett.nc' !  MODEL_INITCOND = model initial conditions
+outFilePrefix        'Blodgett_' !  OUTPUT_PREFIX = prefix for the output file
+vegTableFile         'VEGPARM.TBL' ! 
+soilTableFile        'SOILPARM.TBL' ! 
+generalTableFile     'GENPARM.TBL' ! 
+noahmpTableFile      'MPTABLE.TBL' ! 
+! history Wed Aug 26 14:54:37 2020: /Users/nijssen/Dropbox/code/summa/utils/convert_summa_config_v2_v3.py PLUMBER_data/sites/Blodgett/settings/summa_zFileManager_Blodgett.txt

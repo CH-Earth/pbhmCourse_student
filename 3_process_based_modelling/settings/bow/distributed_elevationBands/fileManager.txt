@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
+simStartTime         '2000-10-01 00:00' ! 
+simEndTime           '2013-09-30 00:00' ! 
+tmZoneInfo           'localTime' ! 
+settingsPath         './settings/bow/distributed_elevationBands/' !  setting_path
+forcingPath          './data/bow/forcing/distributed_elevationBands/' !  input_path
+outputPath           './output/bow/distributed_elevationBands/' !  output_path
+decisionsFile        'modelDecisions.txt' !  decision
+outputControlFile    'Model_Output.txt' !  OUTPUT_CONTROL
+globalHruParamFile   'localParamInfo.txt' !  local_par
+globalGruParamFile   'basinParamInfo.txt' !  basin_par
+attributeFile        'attributes.nc' !  local_attr
+trialParamFile       'trialParams.nc' !  para_trial
+forcingListFile      'forcingFileList.txt' !  forcing_list
+initConditionFile    'warmState.nc' !  initial_cond
+outFilePrefix        'bow_distributed_elev' !  output_prefix
+vegTableFile         'VEGPARM.TBL' ! 
+soilTableFile        'SOILPARM.TBL' ! 
+generalTableFile     'GENPARM.TBL' ! 
+noahmpTableFile      'MPTABLE.TBL' ! 
+! history Mon Jul 20 16:08:16 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./wrrPaperTestCases/figure06/summa_fileManager_reynoldsConstantDecayRate.txt
