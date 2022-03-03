@@ -1,0 +1,25 @@
+! -------------
+!   attributes
+! -------------
+hruId         
+!
+! -----------
+!   forcings
+! -----------
+pptrate                       | 24   | mean
+airtemp                       | 24   | mean
+!
+! -------------------
+!   model variables 
+! -------------------
+scalarTotalET                 | 24   | mean
+scalarSurfaceRunoff           | 24   | mean
+scalarSWE                     | 24   | instant
+scalarCanopyWat               | 24   | instant
+scalarTotalSoilWat            | 24   | instant
+scalarAquiferStorage          | 24   | instant
+scalarInfiltration            | 24   | mean
+scalarSoilDrainage            | 24   | mean
+scalarAquiferBaseflow         | 24   | mean 
+scalarTotalRunoff             | 24   | mean
+averageRoutedRunoff           | 24   | mean
