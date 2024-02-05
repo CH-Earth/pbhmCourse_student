@@ -9,6 +9,7 @@ $ cp pbhm-mods $HOME/.module
 Whenever you need the modules in the terminal environment, you can restore them using:
 ```console
 $ module restore pbhm-mods
+$ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/work/TALC/enci619.05_2024w/local/lib64"
 ```
 
 > [!CAUTION]
