@@ -9,3 +9,6 @@ And use your UC password to login. After logging in, you have to accept the Term
 
 > [!CAUTION]
 > Only after accepting the Terms of Use (TOU), you can login to TALC's Jupyter enviornment using your UC username and password.
+
+> [!NOTE]
+> Please be mindful that Assignment #3 Jupyter Notebooks may ask you to choose an appropriate kernel upon launching. Please choose the relavant Kernel if such a prompt shows up.
