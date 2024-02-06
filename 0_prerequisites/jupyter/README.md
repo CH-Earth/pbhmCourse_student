@@ -1,5 +1,5 @@
 # TALC Jupyter enviornment
-The Jupyter environment for the `TALC` cluster is located in the following: https://talc.ucalgary.ca:8000/hub/login. You can use your UC username and password to login (use only the part before the `@` in `someone@ucalgary.ca`).
+The Jupyter environment for the `TALC` cluster is located in the following: https://talc.ucalgary.ca:8000/hub/login. The link could be accessed using a standard web browser. You may use your UC username and password to login (use only the part before the `@` in `someone@ucalgary.ca`).
 
 Before using Jupyter for the first time, please make sure you login to the `TALC` cluster first, using:
 ```console
