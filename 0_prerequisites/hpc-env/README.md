@@ -3,7 +3,7 @@
 To save the list of modules, copy the [saved list of modules](./pbhm-mods) to the `$HOME/.module` directory.
 ```console
 $ mkdir $HOME/.module
-$ cp pbhm-mods $HOME/.module
+$ cp /work/TALC/enci619.05_2024w/local/modules/pbhm-mods $HOME/.module
 ```
 
 Whenever you need the modules in the terminal environment, you can restore them using:
