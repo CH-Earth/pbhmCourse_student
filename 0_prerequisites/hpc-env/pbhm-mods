@@ -1,0 +1,8 @@
+module use --append /global/software/Modules/4.6.0/modulefiles
+module load --notuasked openmpi/4.1.1-gnu
+module load --notuasked lib/hdf5
+module load --notuasked lib/netcdf/c-4.7.3_f-4.5.2_gnu730_hdf51105_openmpi402opagnu730
+module load nco
+module load gcc/7.3.0
+module load python/3.10.4
+

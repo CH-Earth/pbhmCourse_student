@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # get the module
-module load nco
+module restore pbhm-mods
 
 # define new directories
 gruPath=../output/gru

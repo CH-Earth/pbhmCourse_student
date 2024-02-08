@@ -1,2 +1,8 @@
 .ipynb_checkpoints
 .pysumma
+
+# MAC stuff
+.DS_Store
+
+# output folders
+3_process_based_modelling/output/
