@@ -4,11 +4,11 @@ simEndTime           '2018-12-31 23:00'                                    !
 tmZoneInfo           'utcTime'                                             ! 
 
 ! These need to be updated
-settingsPath         '/home/wmk934/pbhmCourse_student/4_high_performance_computing/settings/' !  setting path
-outputPath           '/home/wmk934/pbhmCourse_student/4_high_performance_computing/output/'    !  output path
+settingsPath         '/home/kasra.keshavarz1/pbhmCourse_student/4_high_performance_computing/settings/' !  setting path
+outputPath           '/home/kasra.keshavarz1/pbhmCourse_student/4_high_performance_computing/output/'    !  output path
 
 ! This may need to be updated
-forcingPath          '/cm/shared/training/geog825/hpc_forcing/' !  forcing path
+forcingPath          '/work/TALC/enci619.05_2024w/hpc_forcing/' !  forcing path
 
 ! This can remain unchanged
 decisionsFile        'modelDecisions.txt'                                  !  model decision file
